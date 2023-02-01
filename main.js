@@ -44,7 +44,7 @@ function my_keydown(e)
 		}
 
 		if((17)|| (18)|| (27)){
-			specialkey
+			specialkey();
 		}
 
 	else{
@@ -56,26 +56,26 @@ function my_keydown(e)
 function alphabetkey()
 {
 	img_image="Alpkey.png";
-	add()
+	add();
 }
 function numberkey()
 {
 	img_image="numkey.png";
-	add()
+	add();
 }
 function arrowkey()
 {
 	img_image="Arrkey.png";
-	add()
+	add();
 }
 function specialkey()
 {
 	img_image="spkey.png";
-	add()
+	add();
 }
 function otherkey()
 {
 	img_image="otherkey.png";
-	add();
+	add();;
 }
 	
